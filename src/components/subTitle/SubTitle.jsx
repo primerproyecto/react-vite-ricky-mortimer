@@ -1,4 +1,4 @@
-import estilos from './SubTitle.module.css'
+/* import estilos from './SubTitle.module.css' */
 
 const SubTitle = (props) =>{
     return (
