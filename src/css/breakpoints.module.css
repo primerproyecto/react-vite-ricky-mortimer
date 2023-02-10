@@ -1,0 +1,5 @@
+
+@value movil: (max-width: 599px);
+@value tableta: (min-width: 600px) and (max-width: 959px);
+@value portatil: (min-width: 960px);
+@value desktop: (min-width: 1333px);

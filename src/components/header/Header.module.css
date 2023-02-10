@@ -1,0 +1,8 @@
+.header {
+    background-color: deeppink;
+    padding: 3rem;
+}
+.bordeImportado {
+    background-color: beige;
+    composes: lista from '../CharacterList/CharacterList.module.css'
+}

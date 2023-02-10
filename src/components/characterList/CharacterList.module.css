@@ -1,0 +1,25 @@
+@value movil, tableta, portatil desktop from "../../css/breakpoints.module.css";
+.lista {
+    border: 3px solid deeppink;
+}
+.background {
+    composes: lista;
+    background-color: aquamarine;
+}
+
+@media movil {
+    .lista {
+        border: 5px solid orange;
+    }
+  }
+
+  @media desktop {
+    .background {
+        background-color: red;
+    }
+  }
+
+  :global(.compositado) { 
+    border: 13px solid green;
+  }
+ 
